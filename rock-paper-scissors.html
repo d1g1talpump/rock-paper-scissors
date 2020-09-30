@@ -58,11 +58,11 @@
         console.log(playRound(playerSelection, computerSelection));
         roundCount++;
       } if (playerPoints > computerPoints) {
-        alert("Yay, you've won! You've scored " + playerPoints + " and the computer scored " + computerPoints + ".")
+        alert("Yay, you've won! After " + roundCount + " rounds, you've scored " + playerPoints + " and the computer scored " + computerPoints + ".")
       } else if (playerPoints < computerPoints) {
-        alert("Boo, you've lost! You've scored " + playerPoints + " and the computer scored " + computerPoints + ".")
+        alert("Boo, you've lost! After " + roundCount + " rounds, you've scored " + playerPoints + " and the computer scored " + computerPoints + ".")
       } else {
-        alert("All tied up at the end. You've scored " + playerPoints + " and the computer also scored " + computerPoints + ".")
+        alert("All tied up at the end. After " + roundCount + " rounds, you've scored " + playerPoints + " but the computer also scored " + computerPoints + ".")
       }
     }
 
