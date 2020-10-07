@@ -1,2 +1,2 @@
 # rock-paper-scissors
-A simple Rock Paper Scissors game to be played in the console.
+A simple Rock Paper Scissors game. Two versions, the first being the game to be played in the console. The second version has re-worked the index to contain the relevant buttons so the game can be played in the browser window.

@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>Rock, Paper, Scissors.</title>
-  <meta charset="UTF-8" />
-</head>
-
-<body>
-  <script>
 
     let playerPoints = 0;
     let computerPoints = 0;
@@ -69,7 +59,3 @@
     alert("Ready for a game of Rock, Paper, Scissors? Hit F12 and open the console.")
     game();
     
-  </script>
-</body>
-
-</html>
